@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emiliano Caudillo Pereyra - Cloud Engineer & SRE</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-color: #38bdf8;
+            --accent-hover: #0ea5e9;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background-color: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            border: 1px solid #334155;
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid var(--accent-color);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            color: var(--accent-color);
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .bio {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background-color: #334155;
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s ease-in-out;
+            border: 1px solid #475569;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+
+        .btn i {
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Puedes reemplazar la ruta de la imagen con una foto tuya o tu avatar de GitHub -->
+        <img src="https://avatars.githubusercontent.com/u/emilianocaudillop?v=4" alt="Emiliano Caudillo" class="profile-img" onerror="this.src='https://via.placeholder.com/110'">
+        
+        <h1>Emiliano Caudillo Pereyra</h1>
+        <p class="tagline">Cloud Engineer & SRE</p>
+        
+        <p class="bio">
+            Ingeniero Mecatrónico apasionado por la automatización, la infraestructura en la nube (AWS) y la confiabilidad de sistemas. Con experiencia en Terraform, Docker y CI/CD.
+        </p>
+
+        <div class="links-container">
+            <!-- Enlace a tu GitHub (reemplaza # con tu link real) -->
+            <a href="https://github.com/emilianocaup" target="_blank" class="btn">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+
+            <!-- Enlace a tu LinkedIn -->
+            <a href="https://linkedin.com/in/emilianocaudillop" target="_blank" class="btn">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+
+            <!-- Enlace a tu CV (puedes subir tu PDF a Google Drive, GitHub o dejarlo en tu repositorio como cv.pdf) -->
+            <a href="URL_DE_TU_CV_EN_PDF" target="_blank" class="btn">
+                <i class="fas fa-file-pdf"></i> Ver / Descargar CV
+            </a>
+
+            <!-- Enlace de contacto por correo -->
+            <a href="mailto:emiliano.caudip@outlook.com" class="btn">
+                <i class="fas fa-envelope"></i> Contacto Correo
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 Emiliano Caudillo. Todos los derechos reservados.
+        </footer>
+    </div>
+
+</body>
+</html>
